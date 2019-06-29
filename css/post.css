@@ -23,7 +23,7 @@ margin:3%;
 }
 #blogEdit{
     float: right;
-    background-color: deeppink;
+    background-color: red;
     color:white;
 }
 .margin{
@@ -33,7 +33,7 @@ margin:3%;
     padding:0.5%;
 }
 .likeButton{
-    background-color: deeppink;
+    background-color: red;
     color:white;
 
 
