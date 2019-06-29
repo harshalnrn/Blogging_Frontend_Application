@@ -1,5 +1,6 @@
 body{
     height:700px;
+
 }
 .blogTite {
     font-size: 150%;
@@ -18,7 +19,7 @@ body{
     font-size: 30px;
 }
 .blogContent{
-
+margin:3%;
 }
 #blogEdit{
     float: right;
