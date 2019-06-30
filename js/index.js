@@ -15,5 +15,4 @@ function span_CreatePost() {
 // When user clicks on All-Posts button, redirect to bloglist.html
 function All_posts() {
     window.location.href='./html/bloglist.html';
-
 }
