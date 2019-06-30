@@ -114,6 +114,41 @@ button:hover {
     opacity:1;
 }
 
+.modal-header{
+    margin:auto;
+    text-align: center;
+}
+
+/* Style for Header Text for Sign-In and Sign Up Modal */
+
+h2{
+    font-family: Abel,sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+/* Adding Style for Close (x) span in Sign-In and Sign Up Modal */
+
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 38px;
+    font-weight: bold;
+    margin-right:5px;
+}
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Style for Line beneath the Header text in Modal */
+
+hr{
+    margin: 7px 0 20px 10px;
+    width: 93%;
+}
 
 
 
