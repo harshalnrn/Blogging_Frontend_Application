@@ -61,9 +61,32 @@
 
 
 
-    <div>
+    <!-- Insert code for Sign Up modal here -->
+    <div id="SignUpModal" class="modal">
+        <div class="Sign-Up-modal-content">
+            <div class="span_sign-up">
+                <span class="close" onclick="span_signUp()">&times</span>
+            </div>
+            <div class="modal-header">
+                <h2>Get Started</h2>
+            </div>
+            <hr>
+            <form>
+                <label for="SignUpFullName"><b>Full Name</b></label>
+                <input type="text" id="SignUpFullName" placeholder="Enter Full Name" required>
 
-    	<!-- Insert code for Sign Up modal here -->
+                <label for="SignUpUserName"><b>User Name</b></label>
+                <input type="text" id="SignUpUserName" placeholder="Enter User Name" required>
+
+                <label for="SignUpPassword"><b>Password</b></label>
+                <input type="password"  id="SignUpPassword" placeholder="Enter Password" required>
+
+                <label for="SignUpConfirmPassword"><b>Confirm Password</b></label>
+                <input type="password" id="SignUpConfirmPassword" placeholder="Confirm Password" required>
+
+                <button type="Submit" id="submit-btn-sign-up">Sign Up</button>
+            </form>
+        </div>
 
     </div>
 
