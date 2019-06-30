@@ -25,6 +25,7 @@ margin:3%;
     float: right;
     background-color: red;
     color:white;
+    width:8%;
 }
 .margin{
     margin-bottom: 1.5%;
@@ -35,6 +36,7 @@ margin:3%;
 .likeButton{
     background-color: red;
     color:white;
+    width:8%;
 
 
 }
