@@ -11,4 +11,47 @@ body{
 } 
 
 /* Set a style for the rest of the elements besides the header elements on the index.html page */
+
+
+/* Aligning the Div containing post Buttons as Centered */
+.postButtons{
+   text-align: center;
+   position: fixed; /* Stay in place */
+   left: 0;
+   bottom: 50%;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+/* Adding Styling for the Post buttons */
+
+.post_Create-button
+{
+   width: 100px;
+   padding: 10px;
+   cursor: pointer;
+   font-size: 90%;
+   background: goldenrod;
+   color: black;
+   opacity: 1.0;
+   font-weight: bolder;
+   margin: 10px 10px 0 0;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+.post_All-button {
+   width: 87px;
+   padding: 10px 5px 10px 10px;
+   cursor: pointer;
+   font-size: 90%;
+   background: goldenrod;
+   color: black;
+   opacity: 1.0;
+   font-weight: bolder;
+   margin: 10px 10px 0 0;
+   font-family: Arial, Helvetica, sans-serif;
+
+}
                                  
