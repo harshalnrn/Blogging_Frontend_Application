@@ -27,7 +27,7 @@ function addComments(id){
 
     //dynamically create a element to add the comments
     document.getElementById('commentSection').style.backgroundColor='lightgrey';
-    document.getElementById('commentSection').innerHTML+='<p id="newComment">'+id.value+'</p>';
+    document.getElementById('commentSection').insertAdjacentHTML('afterbegin','<p id="newComment">'+id.value+'</p>');
 
 }
 
