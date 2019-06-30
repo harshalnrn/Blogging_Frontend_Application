@@ -150,7 +150,16 @@ hr{
     width: 93%;
 }
 
-
+/* Adding Style for the Modal Content Dialog Box */
+.Sign-Up-modal-content {
+    background-color: #fefefe;
+    position: relative;
+    margin: 5% auto; /* 15% from the top and centered */
+    padding: 0 10px 10px 10px;
+    border: 1px solid #888;
+    width: 30%;
+    height: 81%;/* Could be more or less, depending on screen size */
+}
 
 
 
