@@ -119,6 +119,7 @@ i:hover{
     height: 20%;/* Could be more or less, depending on screen size */
 }
 
+
 .text-dialog-delete-modal{
 
     text-align: center;
@@ -164,3 +165,12 @@ h3{
 #Delete-type-no:hover{
     cursor: pointer;
 }
+
+
+}
+
+.divAlign{
+    float:right;
+}
+
+
