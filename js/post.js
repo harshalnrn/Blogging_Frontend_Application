@@ -4,10 +4,13 @@ var button= document.getElementById('blogEdit');
     if (button.innerHTML== 'Save') {
         document.getElementById('blogEdit').innerHTML = 'Edit';
         document.getElementById('blogBody').contentEditable = 'false';
+        document.getElementById('blogTitleNew').contentEditable='false';
+
     }
     else {
         document.getElementById('blogEdit').innerHTML = 'Save';
         document.getElementById('blogBody').contentEditable = 'true';
+        document.getElementById('blogTitleNew').contentEditable='true';
     }
 
 
