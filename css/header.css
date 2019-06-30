@@ -1,7 +1,7 @@
 /* Set a style for all elements inside the header i.e. Sign Up button, Sign In button, 
 the title "ScriBBler" & the sub-heading below "ScriBBLer" */
 
-/* Adding Style for the Sign Up and Sign In buttons */
+/*Styling for the Sign Up and Sign In buttons */
 
 .header_Buttons {
     width: 90px;
@@ -16,7 +16,19 @@ the title "ScriBBler" & the sub-heading below "ScriBBLer" */
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* Styling for title and Sub-Heading */
 
+.logo-title {
+    font-family: 'Satisfy', cursive;
+    font-size: 45px;
+    color: #112fb4;
+    text-decoration: none;
+    margin: 10px 10px 0px 10px;
+}
+.sub-header{
+    font-family: 'Satisfy', cursive;
+    margin: 0 0 0px 10px;
+}
 
 
 
