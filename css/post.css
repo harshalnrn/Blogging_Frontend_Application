@@ -43,5 +43,20 @@ margin:3%;
     height: 100px;
 
 }
+#commentSection{
+    background-color: white;
+    overflow: auto;
+    padding:1%;
+    border:lightgrey;
+    text-align: left;
+    width:50%;
+}
+#newComment{
+    background-color: white;
+    height: 35px;
+    width:100%;
+ text-align: left;
+
+}
 
 /* Set a style for all the remaining elements like Like button, Edit button, Comment button and so on. */
