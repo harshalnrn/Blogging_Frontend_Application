@@ -33,11 +33,33 @@
         </div>
     </div>
 
-    <div>
+    <!-- Insert code for Sign In modal here -->
 
-    	<!-- Insert code for Sign In modal here -->
+    <div id="SignInModal" class="modal">
+        <div class="Sign-In-modal-content">
+            <div class="span_sign-in">
+                <span class="close" onclick="span_SignIn()">&times</span>
+            </div>
+            <div class="modal-header">
+                <h2>Welcome Back!</h2>
+            </div>
+            <hr>
+            <form>
+                <label for="SignInUserName"><b>User Name</b></label>
+                <input type="text" id="SignInUserName" placeholder="Enter User Name" required>
 
+                <label for="SignInPassword"><b>Password</b></label>
+                <input type="password"  id="SignInPassword" placeholder="Enter Password" required>
+
+                <button type="Submit" id="submit-btn-sign-in">Sign In</button>
+            </form>
+            <h3>
+                Not a Member?<span onclick="Sign_Up_Sign_In()" class="sign-up-link"> Sign Up</span>
+            </h3>
+        </div>
     </div>
+
+
 
     <div>
 
