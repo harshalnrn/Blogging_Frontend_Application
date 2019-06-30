@@ -74,6 +74,45 @@ h3{
 
 }
 
+/* Style for the Common Input Fields(text and Password) in the Sign-Up and Sign-In Modal Boxes */
+
+input[type=text], input[type=password] {
+    width: 87%;
+    padding: 15px;
+    margin: 5px 5px 20px 10px;
+    display: block;
+    border: none;
+    background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+/* Style for the Common Labels in the Sign-Up and Sign-In Modal Boxes */
+
+label{
+    margin: 5px 0 30px 10px;
+    font-family: Abel,sans-serif;
+}
+
+/* Style for the Common Button in the Sign-Up and Sign-In Modal Boxes */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px;
+    margin: 5px 0 15px 10px;
+    border: none;
+    display: inline-block;
+    cursor: pointer;
+    width: 95%;
+    opacity: 0.9;
+}
+button:hover {
+    opacity:1;
+}
+
 
 
 
