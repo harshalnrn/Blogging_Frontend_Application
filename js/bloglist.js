@@ -9,6 +9,6 @@ function delete_modal_failure() {
     modal_delete_blog.style.display="none";
 }
 
-function delete_modal_success(){
-    window.location.href='./html/post.html';
+function displayText(){
+    window.location.href='../html/post.html';
 }
