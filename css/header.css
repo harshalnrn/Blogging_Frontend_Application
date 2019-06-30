@@ -1,32 +1,23 @@
 /* Set a style for all elements inside the header i.e. Sign Up button, Sign In button, 
 the title "ScriBBler" & the sub-heading below "ScriBBLer" */
 
-#header {
-    font-family: 'Satisfy', 'cursive';
-    font-style: normal;
-    font-weight: 400;
-    color: blue;
-    font-size: 30px;
-}
+/* Adding Style for the Sign Up and Sign In buttons */
 
-#subheader {
-    font-family: 'Satisfy', 'cursive';
-    font-style: normal;
-    font-size: 10px;
-}
-
-#sign {
+.header_Buttons {
+    width: 90px;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 90%;
+    background: #0000ff;
+    color: #fff;
     float: right;
+    margin: 10px 10px 0px 0px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.signButton {
-    margin-right: 5px;
-    margin-left: 5px;
-    padding: 8px;
-    background-color: blue;
-    color: white;
 
-}
+
 
 
 
