@@ -58,7 +58,8 @@
 }
 
 .post-desc {
-    height: 85%;
+    height: 55px;
+    overflow: hidden;
     margin-bottom: 0 !important;
 }
 
@@ -85,9 +86,6 @@ body {
 
 }
 
-.partial-display {
-    display: none;
-}
 
 /* Styling properties for (...) icon */
 .icon-display {
