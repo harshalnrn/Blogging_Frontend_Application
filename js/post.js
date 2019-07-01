@@ -28,6 +28,7 @@ function like() {
         document.getElementById('likeCount').innerHTML = likeCount + ' people have liked this!';
     }
 }
+
 // event handling function on comment button click
 function addComments(id) {
 
