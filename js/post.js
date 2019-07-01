@@ -1,21 +1,24 @@
-var likeCount=0;
+// global variable to count no of likes by user
+var likeCount = 0;
+
+// event handling function on save/edit button click
 function editClick() {
-var button= document.getElementById('blogEdit');
-    if (button.innerHTML== 'Save') {
+    var button = document.getElementById('blogEdit');
+    if (button.innerHTML == 'Save') {
         document.getElementById('blogEdit').innerHTML = 'Edit';
         document.getElementById('blogBody').contentEditable = 'false';
-        document.getElementById('blogTitleNew').contentEditable='false';
+        document.getElementById('blogTitleNew').contentEditable = 'false';
 
-    }
-    else {
+    } else {
         document.getElementById('blogEdit').innerHTML = 'Save';
         document.getElementById('blogBody').contentEditable = 'true';
-        document.getElementById('blogTitleNew').contentEditable='true';
+        document.getElementById('blogTitleNew').contentEditable = 'true';
     }
 
 
 }
 
+// event handling function on like button click
 function like() {
     likeCount++;
     document.getElementsByClassName('likeButton')[0].innerText = 'Liked';
@@ -25,12 +28,12 @@ function like() {
         document.getElementById('likeCount').innerHTML = likeCount + ' people have liked this!';
     }
 }
-
-function addComments(id){
+// event handling function on comment button click
+function addComments(id) {
 
     //dynamically create a element to add the comments
-    document.getElementById('commentSection').style.backgroundColor='lightgrey';
-    document.getElementById('commentSection').insertAdjacentHTML('afterbegin','<p id="newComment">'+id.value+'</p>');
+    document.getElementById('commentSection').style.backgroundColor = 'lightgrey';
+    document.getElementById('commentSection').insertAdjacentHTML('afterbegin', '<p id="newComment">' + id.value + '</p>');
 
 }
 

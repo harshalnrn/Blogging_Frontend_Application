@@ -25,7 +25,8 @@ the title "ScriBBler" & the sub-heading below "ScriBBLer" */
     text-decoration: none;
     margin: 10px 10px 0px 10px;
 }
-.sub-header{
+
+.sub-header {
     font-family: 'Satisfy', cursive;
     margin: 0 0 0px 10px;
 }
@@ -34,41 +35,43 @@ the title "ScriBBler" & the sub-heading below "ScriBBLer" */
 
 .modal {
     display: none;
-    position: fixed;    /* Stay in place */
-    z-index: 1;     /* Sit on top */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
     padding-top: 5px; /* Location of the box */
     left: 0;
     top: 0;
-    width: 100%;        /* Giving Full width */
-    height: 100%;       /* Giving Full height */
-    overflow: auto;     /* Enable scroll if needed */
-    background-color: rgb(0,0,0);
-    background-color: rgba(0,0,0,0.4);  /* Black w/ opacity */
+    width: 100%; /* Giving Full width */
+    height: 100%; /* Giving Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
 }
 
 /* Adding Style for the Modal Content Dialog Box */
 
-.Sign-In-modal-content{
+.Sign-In-modal-content {
     background-color: #fefefe;
     margin: 7% auto; /* 15% from the top and centered */
     padding: 0 10px 10px 10px;
     border: 1px solid #888;
     width: 30%;
-    height: 64%;/* Could be more or less, depending on screen size */
+    height: 64%; /* Could be more or less, depending on screen size */
 }
 
 /* Adding Style for Sign-Up link in the Sign In Modal Box and for the Display Text as "Not a Member?" */
 
-.sign-up-link{
+.sign-up-link {
     color: #112fb4;
     opacity: 0.9;
 }
-.sign-up-link:hover{
+
+.sign-up-link:hover {
     cursor: pointer;
 }
-h3{
+
+h3 {
     text-align: center;
-    font-family: Abel,sans-serif;
+    font-family: Abel, sans-serif;
     font-weight: bolder;
     font-size: 20px;
 
@@ -92,9 +95,9 @@ input[type=text]:focus, input[type=password]:focus {
 
 /* Style for the Common Labels in the Sign-Up and Sign-In Modal Boxes */
 
-label{
+label {
     margin: 5px 0 30px 10px;
-    font-family: Abel,sans-serif;
+    font-family: Abel, sans-serif;
     color: black;
 }
 
@@ -111,19 +114,20 @@ button {
     width: 95%;
     opacity: 0.9;
 }
+
 button:hover {
-    opacity:1;
+    opacity: 1;
 }
 
-.modal-header{
-    margin:auto;
+.modal-header {
+    margin: auto;
     text-align: center;
 }
 
 /* Style for Header Text for Sign-In and Sign Up Modal */
 
-h2{
-    font-family: Abel,sans-serif;
+h2 {
+    font-family: Abel, sans-serif;
     font-weight: bolder;
     font-size: 30px;
     color: black;
@@ -136,8 +140,9 @@ h2{
     float: right;
     font-size: 38px;
     font-weight: bold;
-    margin-right:5px;
+    margin-right: 5px;
 }
+
 .close:hover,
 .close:focus {
     color: #000;
@@ -147,7 +152,7 @@ h2{
 
 /* Style for Line beneath the Header text in Modal */
 
-hr{
+hr {
     margin: 7px 0 20px 10px;
     width: 93%;
 }
@@ -160,7 +165,7 @@ hr{
     padding: 0 10px 10px 10px;
     border: 1px solid #888;
     width: 30%;
-    height: 81%;/* Could be more or less, depending on screen size */
+    height: 81%; /* Could be more or less, depending on screen size */
 }
 
 

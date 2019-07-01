@@ -1,63 +1,85 @@
-body{
-    height:700px;
+/*styling css script for post.html page*/
+
+/*tag selector styling for entire body*/
+body {
+    height: 700px;
 
 }
+
+/*class selector styling for blog title */
 .blogTite {
     font-size: 150%;
     font-family: 'Abel', sans-serif;
     font-weight: bold;
     text-align: center;
 }
+
 .blogText {
-     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
 
 }
+
 .blogAuthor {
     padding: 0px 0px 0px 10px;
     font-family: 'Niconne', cursive;
     font-size: 30px;
 }
-.blogContent{
-margin:3%;
+
+.blogContent {
+    margin: 3%;
 }
-#blogEdit{
+
+/*id selector styling for edit button*/
+#blogEdit {
     float: right;
-    background-color: red;
-    color:white;
-    width:8%;
+    background-color: deeppink;
+    color: white;
+    width: 8%;
 }
-.margin{
+
+/*generic class selector margin botton styling*/
+.margin {
     margin-bottom: 1.5%;
 }
-.padding{
-    padding:0.5%;
+
+/*generic class selector padding botton styling*/
+.padding {
+    padding: 0.5%;
 }
-.likeButton{
-    background-color: red;
-    color:white;
-    width:8%;
+
+/*class selector styling for like button*/
+.likeButton {
+    background-color: deeppink;
+    color: white;
+    width: 8%;
 
 
 }
-#comments{
+
+/*id selector for comments outer div*/
+#comments {
     width: 50%;
     height: 100px;
 
 }
-#commentSection{
+
+/*id selector for comment inner div*/
+#commentSection {
     background-color: white;
     overflow: auto;
-    padding:1%;
-    border:lightgrey;
+    padding: 1%;
+    border: lightgrey;
     text-align: left;
-    width:50%;
+    width: 50%;
 }
-#newComment{
+
+/*id selector for comments*/
+#newComment {
     background-color: white;
     height: 35px;
-    width:100%;
- text-align: left;
+    width: 100%;
+    text-align: left;
 
 }
 
