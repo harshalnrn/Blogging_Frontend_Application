@@ -10,29 +10,32 @@
 </head>
 <body>
 <div class="header">
-    <!-- Insert code for Sign Up, Sign In button here. Add code for "ScriBBler" heading and the sub-heading -->
+    <!-- code for Sign Up, Sign In button here. Add code for "ScriBBler" heading and the sub-heading -->
 
-    <button class="header_Buttons" onclick= "Sign_Up()" id="signUp_btn"> Sign Up</button>
-    <button class="header_Buttons"  onclick= "Sign_In()"> Sign In </button>
+    <button class="header_Buttons" onclick="Sign_Up()" id="signUp_btn"> Sign Up</button>
+    <button class="header_Buttons" onclick="Sign_In()"> Sign In</button>
     <a id="headerTitle" class="logo-title">ScriBBler</a>
     <p class="sub-header">Explore, Imagine, Create</p>
 
 </div>
 <br>
 <div class="blogContent">
+    <!-- code for Post title-->
     <div id="blogTitle" class="blogTite">
         <h id="blogTitleNew">The legacy of Jimi Hendrix</h>
     </div>
 
     <div class="blogAuthor">
-        <!-- Insert code for Edit/Save button and  -->
+        <!-- code for Edit/Save button-->
         <p>Jimi
-            <button id="blogEdit" class="padding" onclick="editClick()">Edit <i class="fa fa-pencil-square"></i></button>
+            <button id="blogEdit" class="padding" onclick="editClick()">Edit <i class="fa fa-pencil-square"></i>
+            </button>
         </p>
 
     </div>
 
     <div class="blogText">
+        <!-- code for post paragraph-->
         <p id="blogBody" value="">
             Jimi Hendrix was arguably the greatest instrumentalist in the history of rock music.[1] Hendrix expanded the
             range and vocabulary of the electric guitar into areas no musician had ever ventured before. His boundless
@@ -56,12 +59,12 @@
         </p>
     </div>
 
-    <!-- Insert code for Like button, Comment button, Comment box here-->
+    <!-- code for Like button, Comment button, Comment box here-->
     <div>
         <button class="likeButton padding" onclick="like()"><i class="fa fa-thumbs-up"></i>Like</button>
     </div>
     <div id="likeCount" class="margin">Be the first one to like this!</div>
-    <div><textarea id="comments"  placeholder="Leave a comment..."></textarea></div>
+    <div><textarea id="comments" placeholder="Leave a comment..."></textarea></div>
     <div>
         <button class="likeButton margin padding" onclick="addComments(comments)">Comment</button>
     </div>
