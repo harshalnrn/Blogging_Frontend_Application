@@ -95,6 +95,7 @@ input[type=text]:focus, input[type=password]:focus {
 label{
     margin: 5px 0 30px 10px;
     font-family: Abel,sans-serif;
+    color: black;
 }
 
 /* Style for the Common Button in the Sign-Up and Sign-In Modal Boxes */
@@ -125,6 +126,7 @@ h2{
     font-family: Abel,sans-serif;
     font-weight: bolder;
     font-size: 30px;
+    color: black;
 }
 
 /* Adding Style for Close (x) span in Sign-In and Sign Up Modal */
