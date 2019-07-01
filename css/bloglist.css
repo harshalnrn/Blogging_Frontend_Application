@@ -37,7 +37,7 @@
     font-weight: bold;
     color: #2b312b;
     font-size: 25px;
-    height: 15px;
+    height: 15%;
     }
 .post-more {
     float: right;
@@ -49,7 +49,7 @@
     font-size: 30px;
 }
 .post-desc{
-    height: 100px;
+    height: 85%;
     margin-bottom: 0 !important;
 }
 
